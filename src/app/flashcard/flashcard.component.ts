@@ -8,12 +8,14 @@ import { Flashcard } from '../flashcard';
   styleUrls: ['./flashcard.component.css'],
 })
 export class FlashcardComponent implements OnInit {
-  @Input() cards?: FlashcardDeck;
-  @Input() translated: boolean;
+  @Input() card?: Flashcard;
+  @Input() translated?: boolean;
 
-  constructor() {
-    this.translated = false;
-  }
+  constructor() {}
 
   ngOnInit(): void {}
+
+  toggleTranslated(): void {
+    this.translated = !this.translated;
+  }
 }

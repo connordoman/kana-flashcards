@@ -1,4 +1,5 @@
-<div *ngIf="cards" class="flashcard">
-  <h1>{{ cards.top.char }}</h1>
-  <p>{{ cards.top.translation }}</p>
+<div *ngIf="card" class="flashcard">
+  <h1 class="character ok">{{ card.char }}</h1>
+  <br />
+  <p *ngIf="translated" class="translation">{{ card.translation }}</p>
 </div>

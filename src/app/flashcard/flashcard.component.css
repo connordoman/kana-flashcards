@@ -1,0 +1,25 @@
+.flashcard {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  border: 1px solid grey;
+  border-radius: 1em;
+  box-shadow: 0em 0em 1em -0.5em #000000;
+  aspect-ratio: 3/4;
+  width: 10em;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.character {
+  flex: 1;
+  font-size: 72pt;
+  font-weight: bold;
+  font-family: serif;
+  margin: 0;
+}
+
+.translation {
+  flex: 1;
+  font-size: 16pt;
+}

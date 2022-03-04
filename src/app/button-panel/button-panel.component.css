@@ -1,0 +1,15 @@
+.controls {
+  margin: 0.5em;
+  font-size: 16pt;
+  border: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.controls .button {
+  flex: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

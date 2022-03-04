@@ -1,0 +1,4 @@
+<div *ngIf="deck" class="deck noselect">
+  <app-flashcard [card]="deck.top" [translated]="true"></app-flashcard>
+</div>
+<app-button-panel [deck]="deck"></app-button-panel>
